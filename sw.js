@@ -1,7 +1,7 @@
 // FARO — Portal de Campo: guarda la página en el teléfono para que abra sin señal.
 // Va en la misma carpeta que index.html. Los registros sin señal ya se guardan
 // aparte (localStorage); aquí solo se guarda la página y sus letras.
-const CACHE = 'faro-campo-v3';
+const CACHE = 'faro-campo-v4';
 const PAGINA = './';
 
 self.addEventListener('install', e => {
